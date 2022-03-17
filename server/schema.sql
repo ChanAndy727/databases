@@ -5,9 +5,9 @@ USE chat;
 CREATE TABLE messages (
   /* Describe your table here.*/
   ID int,
-  Username char(20),
   content char(200),
   roomname char(20),
+  userID int,
   PRIMARY KEY (ID)
 );
 
